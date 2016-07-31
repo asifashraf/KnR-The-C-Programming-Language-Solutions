@@ -57,6 +57,22 @@ int main(void)
     printf("forty-two in hex     0x%X  \\x2A  %d\n"  , '\x2A', '\x2A');
     printf("\n");
     /* illegal escape sequence */
-    printf("invalid escape sequence    \\c    %d (%c)\n" , '\c', '\c');
+    //printf("invalid escape sequence    \\c    %d (%c)\n" , '\c', '\c');
     return EXIT_SUCCESS;
 }
+/*
+audible alert (bell) BEL   \a     7
+backspace            BS    \b     8
+horizontal tab       HT    \t     9
+newline              LF    \n    10
+vertical tab         VT    \v    11
+formfeed             FF    \f    12
+carriage return      CR    \r    13
+double quote         "     \"    34
+single quote         '     \'    39
+question mark        ?     \?    63
+backslash            \     \\    92
+
+forty-two in octal   052   \52   42
+forty-two in hex     0x2A  \x2A  42
+*/
